@@ -4,3 +4,6 @@ I run pixi run --locked checkpoint1 from the BIOSTAT707 project folder. The chec
 Next, it summarizes each patient’s measurements and saves the patient data in set-a_wide.csv. The missingness_map.png is a Proportion Missing per Variable plot showing the percentage of patients missing each measurement, and TroponinI miss the measurements most. The missingness_vs_death.csv compares the in-hospital death rate between patients with and without each measurement to check whether missingness may be related to the outcome.
 
 ## Checkpoint 2
+To run Checkpoint 2:
+pixi run --locked checkpoint2
+The full run takes about 7 minutes on my laptop.
